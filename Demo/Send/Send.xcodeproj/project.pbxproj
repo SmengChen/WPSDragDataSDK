@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		974001201D547EE000435BBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 974001121D547EE000435BBE /* AppDelegate.m */; };
+		974001221D547EE000435BBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 974001141D547EE000435BBE /* LaunchScreen.storyboard */; };
+		974001231D547EE000435BBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 974001161D547EE000435BBE /* Main.storyboard */; };
+		974001251D547EE000435BBE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9740011A1D547EE000435BBE /* Info.plist */; };
+		974001261D547EE000435BBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9740011B1D547EE000435BBE /* main.m */; };
+		974001441D547FCC00435BBE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9740012A1D547FCC00435BBE /* Info.plist */; };
+		974001451D547FCC00435BBE /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9740012C1D547FCC00435BBE /* MASCompositeConstraint.m */; };
+		974001461D547FCC00435BBE /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9740012F1D547FCC00435BBE /* MASConstraint.m */; };
+		974001471D547FCC00435BBE /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 974001311D547FCC00435BBE /* MASConstraintMaker.m */; };
+		974001481D547FCC00435BBE /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 974001331D547FCC00435BBE /* MASLayoutConstraint.m */; };
+		974001491D547FCC00435BBE /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 974001371D547FCC00435BBE /* MASViewAttribute.m */; };
+		9740014A1D547FCC00435BBE /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 974001391D547FCC00435BBE /* MASViewConstraint.m */; };
+		9740014B1D547FCC00435BBE /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9740013B1D547FCC00435BBE /* NSArray+MASAdditions.m */; };
+		9740014C1D547FCC00435BBE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9740013E1D547FCC00435BBE /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		9740014D1D547FCC00435BBE /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 974001401D547FCC00435BBE /* View+MASAdditions.m */; };
+		9740014E1D547FCC00435BBE /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 974001431D547FCC00435BBE /* ViewController+MASAdditions.m */; };
+		97C416C21D5ADF4E001B9E6A /* libWPSDragDataSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97C416C11D5ADF4E001B9E6A /* libWPSDragDataSDK.a */; };
+		97C416DB1D5B1532001B9E6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C416DA1D5B1532001B9E6A /* Assets.xcassets */; };
+		97EF12571D59CBEB00424F54 /* WPSDragViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF12561D59CBEB00424F54 /* WPSDragViewController.m */; };
+		97EF125A1D59CBF100424F54 /* WPSDragCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF12591D59CBF100424F54 /* WPSDragCollectionViewCell.m */; };
+		97EF125D1D59CC2900424F54 /* WPSDragDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF125C1D59CC2900424F54 /* WPSDragDataModel.m */; };
+		97EF12601D59CC3A00424F54 /* WPSDragDataViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF125F1D59CC3A00424F54 /* WPSDragDataViewModel.m */; };
+		B95470E51D5C0D730047CC1F /* Day5.doc in Resources */ = {isa = PBXBuildFile; fileRef = B95470DE1D5C0D730047CC1F /* Day5.doc */; };
+		B95470E61D5C0D730047CC1F /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B95470DF1D5C0D730047CC1F /* music.mp3 */; };
+		B95470E71D5C0D730047CC1F /* Review.ppt in Resources */ = {isa = PBXBuildFile; fileRef = B95470E01D5C0D730047CC1F /* Review.ppt */; };
+		B95470E81D5C0D730047CC1F /* vedio.mov in Resources */ = {isa = PBXBuildFile; fileRef = B95470E11D5C0D730047CC1F /* vedio.mov */; };
+		B95470E91D5C0D730047CC1F /* 冰与火之歌1-5卷.zip in Resources */ = {isa = PBXBuildFile; fileRef = B95470E21D5C0D730047CC1F /* 冰与火之歌1-5卷.zip */; };
+		B95470EA1D5C0D730047CC1F /* 登记表.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = B95470E31D5C0D730047CC1F /* 登记表.xlsx */; };
+		B95470EB1D5C0D730047CC1F /* 编译原理课后习题.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B95470E41D5C0D730047CC1F /* 编译原理课后习题.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		974001111D547EE000435BBE /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		974001121D547EE000435BBE /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		974001151D547EE000435BBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		974001171D547EE000435BBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9740011A1D547EE000435BBE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9740011B1D547EE000435BBE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9740012A1D547FCC00435BBE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9740012B1D547FCC00435BBE /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		9740012C1D547FCC00435BBE /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		9740012D1D547FCC00435BBE /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		9740012E1D547FCC00435BBE /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		9740012F1D547FCC00435BBE /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		974001301D547FCC00435BBE /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		974001311D547FCC00435BBE /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		974001321D547FCC00435BBE /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		974001331D547FCC00435BBE /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		974001341D547FCC00435BBE /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		974001351D547FCC00435BBE /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		974001361D547FCC00435BBE /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		974001371D547FCC00435BBE /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		974001381D547FCC00435BBE /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		974001391D547FCC00435BBE /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		9740013A1D547FCC00435BBE /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		9740013B1D547FCC00435BBE /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		9740013C1D547FCC00435BBE /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		9740013D1D547FCC00435BBE /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		9740013E1D547FCC00435BBE /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		9740013F1D547FCC00435BBE /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		974001401D547FCC00435BBE /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		974001411D547FCC00435BBE /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		974001421D547FCC00435BBE /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		974001431D547FCC00435BBE /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		97B66DA11D4F2013004247EF /* Send.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Send.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97C416C11D5ADF4E001B9E6A /* libWPSDragDataSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libWPSDragDataSDK.a; path = ../../WPSDragDataSDKv1.1.0/libWPSDragDataSDK.a; sourceTree = "<group>"; };
+		97C416DA1D5B1532001B9E6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97EF12551D59CBEB00424F54 /* WPSDragViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPSDragViewController.h; sourceTree = "<group>"; };
+		97EF12561D59CBEB00424F54 /* WPSDragViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPSDragViewController.m; sourceTree = "<group>"; };
+		97EF12581D59CBF100424F54 /* WPSDragCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPSDragCollectionViewCell.h; sourceTree = "<group>"; };
+		97EF12591D59CBF100424F54 /* WPSDragCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPSDragCollectionViewCell.m; sourceTree = "<group>"; };
+		97EF125B1D59CC2900424F54 /* WPSDragDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPSDragDataModel.h; sourceTree = "<group>"; };
+		97EF125C1D59CC2900424F54 /* WPSDragDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPSDragDataModel.m; sourceTree = "<group>"; };
+		97EF125E1D59CC3A00424F54 /* WPSDragDataViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPSDragDataViewModel.h; sourceTree = "<group>"; };
+		97EF125F1D59CC3A00424F54 /* WPSDragDataViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPSDragDataViewModel.m; sourceTree = "<group>"; };
+		97EF12621D59D87F00424F54 /* WPSDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPSDefine.h; sourceTree = "<group>"; };
+		B95470CE1D5C0A050047CC1F /* UIView+WPSHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WPSHelp.h"; sourceTree = "<group>"; };
+		B95470CF1D5C0A050047CC1F /* WPSDragDataSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPSDragDataSDK.h; sourceTree = "<group>"; };
+		B95470DE1D5C0D730047CC1F /* Day5.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Day5.doc; sourceTree = "<group>"; };
+		B95470DF1D5C0D730047CC1F /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		B95470E01D5C0D730047CC1F /* Review.ppt */ = {isa = PBXFileReference; lastKnownFileType = file; path = Review.ppt; sourceTree = "<group>"; };
+		B95470E11D5C0D730047CC1F /* vedio.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = vedio.mov; sourceTree = "<group>"; };
+		B95470E21D5C0D730047CC1F /* 冰与火之歌1-5卷.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "冰与火之歌1-5卷.zip"; sourceTree = "<group>"; };
+		B95470E31D5C0D730047CC1F /* 登记表.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "登记表.xlsx"; sourceTree = "<group>"; };
+		B95470E41D5C0D730047CC1F /* 编译原理课后习题.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "编译原理课后习题.pdf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97B66D9E1D4F2013004247EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97C416C21D5ADF4E001B9E6A /* libWPSDragDataSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		974001101D547EE000435BBE /* Send */ = {
+			isa = PBXGroup;
+			children = (
+				974001111D547EE000435BBE /* AppDelegate.h */,
+				974001121D547EE000435BBE /* AppDelegate.m */,
+				B95470C01D5B69370047CC1F /* WPSDragDataSDKHeaders */,
+				97EF12611D59D86B00424F54 /* Help */,
+				97EF12491D59CB4900424F54 /* View */,
+				97EF12481D59CB4900424F54 /* Controller */,
+				97EF124A1D59CB6C00424F54 /* Model */,
+				97EF124B1D59CB6C00424F54 /* ViewModel */,
+				974001291D547FCC00435BBE /* Masonry */,
+			);
+			path = Send;
+			sourceTree = "<group>";
+		};
+		974001291D547FCC00435BBE /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				9740012A1D547FCC00435BBE /* Info.plist */,
+				9740012B1D547FCC00435BBE /* MASCompositeConstraint.h */,
+				9740012C1D547FCC00435BBE /* MASCompositeConstraint.m */,
+				9740012D1D547FCC00435BBE /* MASConstraint+Private.h */,
+				9740012E1D547FCC00435BBE /* MASConstraint.h */,
+				9740012F1D547FCC00435BBE /* MASConstraint.m */,
+				974001301D547FCC00435BBE /* MASConstraintMaker.h */,
+				974001311D547FCC00435BBE /* MASConstraintMaker.m */,
+				974001321D547FCC00435BBE /* MASLayoutConstraint.h */,
+				974001331D547FCC00435BBE /* MASLayoutConstraint.m */,
+				974001341D547FCC00435BBE /* Masonry.h */,
+				974001351D547FCC00435BBE /* MASUtilities.h */,
+				974001361D547FCC00435BBE /* MASViewAttribute.h */,
+				974001371D547FCC00435BBE /* MASViewAttribute.m */,
+				974001381D547FCC00435BBE /* MASViewConstraint.h */,
+				974001391D547FCC00435BBE /* MASViewConstraint.m */,
+				9740013A1D547FCC00435BBE /* NSArray+MASAdditions.h */,
+				9740013B1D547FCC00435BBE /* NSArray+MASAdditions.m */,
+				9740013C1D547FCC00435BBE /* NSArray+MASShorthandAdditions.h */,
+				9740013D1D547FCC00435BBE /* NSLayoutConstraint+MASDebugAdditions.h */,
+				9740013E1D547FCC00435BBE /* NSLayoutConstraint+MASDebugAdditions.m */,
+				9740013F1D547FCC00435BBE /* View+MASAdditions.h */,
+				974001401D547FCC00435BBE /* View+MASAdditions.m */,
+				974001411D547FCC00435BBE /* View+MASShorthandAdditions.h */,
+				974001421D547FCC00435BBE /* ViewController+MASAdditions.h */,
+				974001431D547FCC00435BBE /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		9740017A1D54829000435BBE /* Supporting File */ = {
+			isa = PBXGroup;
+			children = (
+				B95470DD1D5C0D730047CC1F /* Files */,
+				97C416C11D5ADF4E001B9E6A /* libWPSDragDataSDK.a */,
+				97C416DA1D5B1532001B9E6A /* Assets.xcassets */,
+				974001141D547EE000435BBE /* LaunchScreen.storyboard */,
+				974001161D547EE000435BBE /* Main.storyboard */,
+				9740011A1D547EE000435BBE /* Info.plist */,
+				9740011B1D547EE000435BBE /* main.m */,
+			);
+			name = "Supporting File";
+			path = Send;
+			sourceTree = "<group>";
+		};
+		97B66D981D4F2013004247EF = {
+			isa = PBXGroup;
+			children = (
+				974001101D547EE000435BBE /* Send */,
+				9740017A1D54829000435BBE /* Supporting File */,
+				97B66DA21D4F2013004247EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97B66DA21D4F2013004247EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97B66DA11D4F2013004247EF /* Send.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97EF12481D59CB4900424F54 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				97EF12551D59CBEB00424F54 /* WPSDragViewController.h */,
+				97EF12561D59CBEB00424F54 /* WPSDragViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		97EF12491D59CB4900424F54 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				97EF12581D59CBF100424F54 /* WPSDragCollectionViewCell.h */,
+				97EF12591D59CBF100424F54 /* WPSDragCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		97EF124A1D59CB6C00424F54 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				97EF125B1D59CC2900424F54 /* WPSDragDataModel.h */,
+				97EF125C1D59CC2900424F54 /* WPSDragDataModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		97EF124B1D59CB6C00424F54 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				97EF125E1D59CC3A00424F54 /* WPSDragDataViewModel.h */,
+				97EF125F1D59CC3A00424F54 /* WPSDragDataViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		97EF12611D59D86B00424F54 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				97EF12621D59D87F00424F54 /* WPSDefine.h */,
+			);
+			path = Help;
+			sourceTree = "<group>";
+		};
+		B95470C01D5B69370047CC1F /* WPSDragDataSDKHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				B95470CE1D5C0A050047CC1F /* UIView+WPSHelp.h */,
+				B95470CF1D5C0A050047CC1F /* WPSDragDataSDK.h */,
+			);
+			path = WPSDragDataSDKHeaders;
+			sourceTree = "<group>";
+		};
+		B95470DD1D5C0D730047CC1F /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				B95470DE1D5C0D730047CC1F /* Day5.doc */,
+				B95470DF1D5C0D730047CC1F /* music.mp3 */,
+				B95470E01D5C0D730047CC1F /* Review.ppt */,
+				B95470E11D5C0D730047CC1F /* vedio.mov */,
+				B95470E21D5C0D730047CC1F /* 冰与火之歌1-5卷.zip */,
+				B95470E31D5C0D730047CC1F /* 登记表.xlsx */,
+				B95470E41D5C0D730047CC1F /* 编译原理课后习题.pdf */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97B66DA01D4F2013004247EF /* Send */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97B66DB81D4F2013004247EF /* Build configuration list for PBXNativeTarget "Send" */;
+			buildPhases = (
+				97B66D9D1D4F2013004247EF /* Sources */,
+				97B66D9E1D4F2013004247EF /* Frameworks */,
+				97B66D9F1D4F2013004247EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Send;
+			productName = Fasong;
+			productReference = 97B66DA11D4F2013004247EF /* Send.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97B66D991D4F2013004247EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Kingsoft;
+				TargetAttributes = {
+					97B66DA01D4F2013004247EF = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 97B66D9C1D4F2013004247EF /* Build configuration list for PBXProject "Send" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97B66D981D4F2013004247EF;
+			productRefGroup = 97B66DA21D4F2013004247EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97B66DA01D4F2013004247EF /* Send */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97B66D9F1D4F2013004247EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95470E91D5C0D730047CC1F /* 冰与火之歌1-5卷.zip in Resources */,
+				974001251D547EE000435BBE /* Info.plist in Resources */,
+				974001231D547EE000435BBE /* Main.storyboard in Resources */,
+				974001441D547FCC00435BBE /* Info.plist in Resources */,
+				B95470EB1D5C0D730047CC1F /* 编译原理课后习题.pdf in Resources */,
+				974001221D547EE000435BBE /* LaunchScreen.storyboard in Resources */,
+				B95470E81D5C0D730047CC1F /* vedio.mov in Resources */,
+				B95470EA1D5C0D730047CC1F /* 登记表.xlsx in Resources */,
+				97C416DB1D5B1532001B9E6A /* Assets.xcassets in Resources */,
+				B95470E61D5C0D730047CC1F /* music.mp3 in Resources */,
+				B95470E71D5C0D730047CC1F /* Review.ppt in Resources */,
+				B95470E51D5C0D730047CC1F /* Day5.doc in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97B66D9D1D4F2013004247EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				974001471D547FCC00435BBE /* MASConstraintMaker.m in Sources */,
+				974001261D547EE000435BBE /* main.m in Sources */,
+				974001461D547FCC00435BBE /* MASConstraint.m in Sources */,
+				97EF12601D59CC3A00424F54 /* WPSDragDataViewModel.m in Sources */,
+				9740014E1D547FCC00435BBE /* ViewController+MASAdditions.m in Sources */,
+				974001481D547FCC00435BBE /* MASLayoutConstraint.m in Sources */,
+				97EF125D1D59CC2900424F54 /* WPSDragDataModel.m in Sources */,
+				9740014B1D547FCC00435BBE /* NSArray+MASAdditions.m in Sources */,
+				97EF12571D59CBEB00424F54 /* WPSDragViewController.m in Sources */,
+				9740014A1D547FCC00435BBE /* MASViewConstraint.m in Sources */,
+				974001491D547FCC00435BBE /* MASViewAttribute.m in Sources */,
+				9740014D1D547FCC00435BBE /* View+MASAdditions.m in Sources */,
+				974001201D547EE000435BBE /* AppDelegate.m in Sources */,
+				974001451D547FCC00435BBE /* MASCompositeConstraint.m in Sources */,
+				97EF125A1D59CBF100424F54 /* WPSDragCollectionViewCell.m in Sources */,
+				9740014C1D547FCC00435BBE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		974001141D547EE000435BBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				974001151D547EE000435BBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		974001161D547EE000435BBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				974001171D547EE000435BBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97B66DB61D4F2013004247EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97B66DB71D4F2013004247EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97B66DB91D4F2013004247EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Send/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../../WPSDragDataSDKv1.1.0";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingsoft.send;
+				PRODUCT_NAME = Send;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		97B66DBA1D4F2013004247EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Send/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../../WPSDragDataSDKv1.1.0";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingsoft.send;
+				PRODUCT_NAME = Send;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97B66D9C1D4F2013004247EF /* Build configuration list for PBXProject "Send" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97B66DB61D4F2013004247EF /* Debug */,
+				97B66DB71D4F2013004247EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97B66DB81D4F2013004247EF /* Build configuration list for PBXNativeTarget "Send" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97B66DB91D4F2013004247EF /* Debug */,
+				97B66DBA1D4F2013004247EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97B66D991D4F2013004247EF /* Project object */;
+}

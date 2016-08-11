@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2004536F2BB36DA94F0E3C7FBEDDC079152F729C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2004536F2BB36DA94F0E3C7FBEDDC079152F729C" : 0,
+    "6FC4832245A6A8E50F2A782F20A8B58A46BD1FEB" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FD2E175C-0EF5-4471-B78D-211ABBC67356",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2004536F2BB36DA94F0E3C7FBEDDC079152F729C" : "WPSDragDataSDK\/",
+    "6FC4832245A6A8E50F2A782F20A8B58A46BD1FEB" : "Masonry\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Receive",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Receive\/Receive.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/wpsgit.kingsoft.net\/wpsios_o2\/WPSDragDataSDK.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2004536F2BB36DA94F0E3C7FBEDDC079152F729C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/SnapKit\/Masonry.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6FC4832245A6A8E50F2A782F20A8B58A46BD1FEB"
+    }
+  ]
+}
