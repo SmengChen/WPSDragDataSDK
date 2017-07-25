@@ -423,6 +423,7 @@
 - (void)displayTipLabel
 {
     self.fileReceivedTipLabel.alpha = 1;
+    
     [UIView animateWithDuration:2 animations:^{
         self.fileReceivedTipLabel.alpha = 0;
     }];
