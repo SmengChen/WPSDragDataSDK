@@ -247,10 +247,8 @@
                 CGFloat deltaX = newPoint.x - self.startPoint.x;
                 CGFloat deltaY = newPoint.y - self.startPoint.y;
                 
-                __weak typeof(self) weakSelf = self;
                 [UIView animateWithDuration:0 animations:^{
-                    __strong typeof(weakSelf) strongSelf = weakSelf;
-                    strongSelf.dragImageView.center = CGPointMake(strongSelf.dragImageView.center.x + deltaX, strongSelf.dragImageView.center.y + deltaY);
+                    self.dragImageView.center = CGPointMake(self.dragImageView.center.x + deltaX, self.dragImageView.center.y + deltaY);
                 }];
                 
                 [self.wpsDragDataSDK dragChangedSyncDragIconWithImage:[UIView generateDragImageWithView:self.currentCell] fromRect:self.dragImageView.frame];
@@ -425,10 +423,8 @@
 - (void)displayTipLabel
 {
     self.fileReceivedTipLabel.alpha = 1;
-    __weak typeof(self) weakSelf = self;
     [UIView animateWithDuration:2 animations:^{
-        __strong typeof(weakSelf) strongSelf = weakSelf;
-        strongSelf.fileReceivedTipLabel.alpha = 0;
+        self.fileReceivedTipLabel.alpha = 0;
     }];
 }
 
